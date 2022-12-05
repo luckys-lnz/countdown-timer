@@ -14,15 +14,21 @@ const Timer = ({timerDays, timerHrs, timerMins, timerSecs}) => {
               <small>Days</small>
             </section>
 
+            <span>:</span>
+
             <section>
               <p>{timerHrs}</p>
               <small>Hours</small>
             </section>
 
+            <span>:</span>
+
             <section>
               <p>{timerMins}</p>
               <small>Minutes</small>
             </section>
+
+            <span>:</span>
 
             <section>
               <p>{timerSecs}</p>
