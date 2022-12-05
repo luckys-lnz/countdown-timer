@@ -16,7 +16,9 @@ function App() {
 
     <div className="App">
 
-      <Timer timer />
+      <Timer timerDays={timerDays} timerHrs={timerHrs}
+        
+        timerMins={timerMins} timerSecs={timerSecs} />
 
     </div>
   );
